@@ -5,7 +5,7 @@ Required Setup
 1. Sign up for a free account at https://darksky.net/dev
 2. Copy Secret Key and Paste into the DarkSky file. 
 Example:
-<img src="https://github.com/CapTechMobile/CapTemp/blob/master/secretKeyExample.png" width="300">
+<img src="https://github.com/CapTechMobile/CapTemp/blob/master/secretKeyExample.png" width="500">
 3. After replacing the Secret Key with your own, run the application.
 
 

@@ -11,7 +11,8 @@ import Moya
 
 public enum DarkSky: TargetType {
     
-    static private let secretKey = "3fa16ede045a44bcecff7e7dec079733"
+    //Insert Secret Key from https://darksky.net/dev
+    static private let secretKey = "INSERT SECRET KEY HERE"
     
     case weather(latitude: Double, longitude: Double)
     

@@ -22,7 +22,7 @@
 		2ABAC5982162A79600598048 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABAC5972162A79600598048 /* Location.swift */; };
 		2ABAC59A2162AE0100598048 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABAC5992162AE0100598048 /* WeatherCell.swift */; };
 		2ABAC59C2163D91800598048 /* WeatherCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABAC59B2163D91800598048 /* WeatherCondition.swift */; };
-		C0F891CC1F4DBE24278F6768 /* Pods_CapTweet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DE1CB5C2A25B39B8BE51D3 /* Pods_CapTweet.framework */; };
+		3EF5C0A9F13998746A234C1F /* Pods_CapTemp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F572DCBF3261D0B0A9026D41 /* Pods_CapTemp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,7 +45,10 @@
 		2ABAC59B2163D91800598048 /* WeatherCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCondition.swift; sourceTree = "<group>"; };
 		46FDA1EB22B0C51DFEF9EEC2 /* Pods-CapTweet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapTweet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CapTweet/Pods-CapTweet.debug.xcconfig"; sourceTree = "<group>"; };
 		95DE1CB5C2A25B39B8BE51D3 /* Pods_CapTweet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CapTweet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8506DF1F578FC7BDB54D962 /* Pods-CapTemp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapTemp.release.xcconfig"; path = "Pods/Target Support Files/Pods-CapTemp/Pods-CapTemp.release.xcconfig"; sourceTree = "<group>"; };
 		D6BFC85C37AE4E8273A45959 /* Pods-CapTweet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapTweet.release.xcconfig"; path = "Pods/Target Support Files/Pods-CapTweet/Pods-CapTweet.release.xcconfig"; sourceTree = "<group>"; };
+		F34234FB59ACEA2D97EE2A20 /* Pods-CapTemp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CapTemp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CapTemp/Pods-CapTemp.debug.xcconfig"; sourceTree = "<group>"; };
+		F572DCBF3261D0B0A9026D41 /* Pods_CapTemp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CapTemp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0F891CC1F4DBE24278F6768 /* Pods_CapTweet.framework in Frameworks */,
+				3EF5C0A9F13998746A234C1F /* Pods_CapTemp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +68,8 @@
 			children = (
 				46FDA1EB22B0C51DFEF9EEC2 /* Pods-CapTweet.debug.xcconfig */,
 				D6BFC85C37AE4E8273A45959 /* Pods-CapTweet.release.xcconfig */,
+				F34234FB59ACEA2D97EE2A20 /* Pods-CapTemp.debug.xcconfig */,
+				A8506DF1F578FC7BDB54D962 /* Pods-CapTemp.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -138,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				95DE1CB5C2A25B39B8BE51D3 /* Pods_CapTweet.framework */,
+				F572DCBF3261D0B0A9026D41 /* Pods_CapTemp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -219,7 +225,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CapTweet/Pods-CapTweet-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-CapTemp/Pods-CapTemp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
@@ -234,7 +240,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CapTweet/Pods-CapTweet-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CapTemp/Pods-CapTemp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B76677B55FE76A23503AEA23 /* [CP] Check Pods Manifest.lock */ = {
@@ -252,7 +258,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CapTweet-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CapTemp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -421,7 +427,7 @@
 		};
 		2A5DAC3D2152B30100A45D37 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46FDA1EB22B0C51DFEF9EEC2 /* Pods-CapTweet.debug.xcconfig */;
+			baseConfigurationReference = F34234FB59ACEA2D97EE2A20 /* Pods-CapTemp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -440,7 +446,7 @@
 		};
 		2A5DAC3E2152B30100A45D37 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6BFC85C37AE4E8273A45959 /* Pods-CapTweet.release.xcconfig */;
+			baseConfigurationReference = A8506DF1F578FC7BDB54D962 /* Pods-CapTemp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
